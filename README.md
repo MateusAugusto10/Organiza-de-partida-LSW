@@ -14,7 +14,7 @@ Acompanhar Presença: Os jogadores podem confirmar sua presença na partida.
 
 Excluir Partida: Possibilidade de excluir uma partida cadastrada.
 
-#Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 ## Frontend
 
@@ -27,6 +27,11 @@ Frameworks de Estilização: É permitido utilizar Bootstrap, Bulma, Semantic UI
 NodeJS + Express para a criação da API.
 
 Manipulação de Dados: Os dados são armazenados em um arquivo JSON utilizando as funções nativas do NodeJS (readFile e writeFile).
+
+# Acessar o Diretório do Backend
+### npm install
+# Iniciar o Servidor
+### npm start
 
 
 
