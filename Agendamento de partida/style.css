@@ -1,0 +1,57 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .match-card {
+    transition: transform 0.3s ease;
+    height: 100%;
+  }
+  
+  .match-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .match-date {
+    color: #198754;
+    font-weight: 600;
+  }
+  
+  .player-action {
+    cursor: pointer;
+  }
+  
+  .confirmation-toggle {
+    cursor: pointer;
+  }
+  
+  .confirmation-badge {
+    font-size: 0.8rem;
+    padding: 0.35em 0.65em;
+  }
+  
+  .match-location {
+    display: flex;
+    align-items: center;
+    color: #6c757d;
+  }
+  
+  .match-location i {
+    margin-right: 5px;
+  }
+  
+  .empty-state {
+    text-align: center;
+    padding: 50px 0;
+    color: #6c757d;
+  }
+  
+  .empty-state i {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #dee2e6;
+  }
+  
+  .tab-content {
+    min-height: 300px;
+  }
